@@ -6,3 +6,59 @@ header {
 header img {
     user-select: none;
 }
+
+.cat-btn {
+    width: 100%;
+    text-align: left;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.cat-btn:hover {
+    background-color: #e2f2e5;
+}
+
+.active-cat {
+    background-color: #3d7a44 !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.tree-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
+
+footer {
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+}
+
+section h3 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.rounded-3xl {
+    border-radius: 1.5rem;
+}
+
+.bg-white.p-10 {
+    transition: all 0.4s ease;
+}
+
+.bg-white.p-10:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
