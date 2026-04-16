@@ -1,0 +1,8 @@
+header {
+    overflow: hidden;
+    position: relative;
+}
+
+header img {
+    user-select: none;
+}
