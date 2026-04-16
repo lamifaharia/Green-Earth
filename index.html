@@ -1,14 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<span class="text-red-500">it's me</span></body>
-<p> so sick today, will do the code later</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Earth | Plant a Tree</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-[#f0f9f1]">
+    <nav class="bg-[#3d7a44] text-white py-4 px-6 sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Green Earth</h1>
+        <ul class="hidden md:flex space-x-8">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Plant a Tree</a></li>
+        </ul>
+        <button
+          class="bg-[#ffd700] text-black px-5 py-2 rounded-full font-bold text-sm"
+        >
+          Plant a Tree
+        </button>
+      </div>
+    </nav>
 
+   <header class="relative h-[600px] bg-[#f0f9f1] flex items-center justify-center text-center overflow-hidden">
+    
+    <img src="assets/hero-leaf1.png" class="absolute left-[-80px] lg:left-[-40px] top-1/2 -translate-y-1/2 w-64 lg:w-80 opacity-30 pointer-events-none z-0" alt="">
 
-</html>
+    <img src="assets/hero-leaf2.png" class="absolute right-[-80px] lg:right-[-40px] top-1/2 -translate-y-1/2 w-64 lg:w-80 opacity-30 pointer-events-none z-0" alt="">
+
+    <div class="relative z-10 max-w-3xl px-4">
+        <h2 class="text-6xl font-extrabold text-[#1b351f] mb-6 leading-tight">Plant a Tree, <br> Grow a Future</h2>
+        <p class="text-xl text-gray-600 mb-10">Join our mission to plant 1 million trees and make the Earth greener.</p>
+        <button class="bg-[#ffd700] px-12 py-4 rounded-full font-bold shadow-lg hover:bg-yellow-400 transition-all active:scale-95">Get Involved</button>
+    </div>
+</header>
